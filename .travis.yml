@@ -1,4 +1,7 @@
 matrix:
+  sudo: required
+  addons:
+    chrome: stable
   include: 
     language: node_js
 
